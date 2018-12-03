@@ -1,14 +1,16 @@
 body {
-	background: url('../images/background.jpg');
-	background-repeat: repeat-x;
-	box-sizing: border-box;
+	background-image: url('../images/gaming.jpg');
+	background-repeat: none;
+	background-size: cover;
 	font-family: arial;
 }
 
 * {
+	border-radius: 10px;
 	margin: 0;
 	padding: 0;
 	box-sizing: inherit;
+	opacity:.97;
 }
 
 .page {
