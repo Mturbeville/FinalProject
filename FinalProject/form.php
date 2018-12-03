@@ -103,7 +103,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             );
             $statement->execute($params);
         };	
-		header('location: index.php');
+		header('location: admin.php');
 	}
 	
 }
